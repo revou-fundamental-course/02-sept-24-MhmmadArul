@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    background-color: #f8e9ff;  /* background color */
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.container .header {
+    text-align: center;
+    color: #9760b1;
+}
+
+.selection-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.select-style {
+    padding: 10px;
+    background-color: #dd9cfc;
+    border-radius: 10px;
+    border: none;
+    color: #FFFF;
+    font-weight: 600;
+}
+
+.select-jajargenjang {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #f0d3fe;
+    color: #a973c2;
+    font-weight: 600;
+}
+
+.luas-segitiga-header, .keliling-segitiga-header {
+    background-color: #dd9cfc;
+    color: #FFF;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.luas-segitiga-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.luas-segitiga-img img{
+    width: 210px;
+    height: 210px;
+}
+
+.luas-segitiga-form-header {
+    text-align: center;
+}
+
+.input-wrapper {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-wrapper input {
+    width: 55%;
+}
+
+input[type=number] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.segitiga {
+    display: flex;
+    gap: 5px;
+}
+
+.segitiga>aside{
+    flex: 1;
+}

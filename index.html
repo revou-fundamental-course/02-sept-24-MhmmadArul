@@ -8,9 +8,91 @@
 </head>
 <body>
 
-    <header></header>
+    <div class="container">
+        <header class="header">
+            <h1>Welcome to Katik</h1>
+            <p>Hai Sobat, Selamat datang di Katik :) <br> Sebuah web apps sederhana yang berfungsi untuk menghitung nilai luas dan keliling bangun datar</p>
+        </header>
+    
+        <main>
+            <section class="selection-content">
+                <button class="select-segitiga select-style">Segitiga</button>
+                <button class="select-jajargenjang">Jajar Genjang</button>
+            </section>
 
-    <main></main>
+            <section class="segitiga">
+                <aside>
+                <header class="luas-segitiga-header">
+                    <h1>Luas Segitiga</h1>
+                </header>
+                
+                <article>
+                    <div class="luas-segitiga-img">
+                        <img src="assets/Luas segitiga.png" alt="">
+                    </div>
+                    <p>Rumus Luas Seigitiga</p>
+                </article>
+
+                <hr>
+
+                <form>
+                    <header>
+                        <h1 class="luas-segitiga-form-header">Hitung Luas Segitiga</h1>
+                    </header>
+
+                    <div class="input-wrapper">
+                        <label for="panjang-alas">Panjang Alas :</label>
+                        <input type="number" id="panjang-alas">
+                    </div>
+                    <div class="input-wrapper">    
+                        <label for="tinggi">Tinggi :</label>
+                        <input type="number" id="tinggi">
+                    </div>
+
+                    <p id="result">Hasil Perhitungan</p>
+
+                    <button>Hitung</button>
+                </form>
+
+                </aside>
+
+                <aside>
+                    <header class="keliling-segitiga-header">
+                        <h1>Keliling Segitiga</h1>
+                    </header>
+                    
+                    <article>
+                        <div class="luas-segitiga-img">
+                            <img src="assets/Luas segitiga.png" alt="">
+                        </div>
+                        <p>Rumus Keliling Seigitiga</p>
+                    </article>
+
+                    <hr>
+
+                    <form>
+                        <header>
+                            <h1 class="luas-segitiga-form-header">Hitung Keliling Segitiga</h1>
+                        </header>
+
+                        <div class="input-wrapper">
+                            <label for="panjang-alas">Panjang Alas :</label>
+                            <input type="number" id="panjang-alas">
+                        </div>
+                        <div class="input-wrapper">    
+                            <label for="tinggi">Tinggi :</label>
+                            <input type="number" id="tinggi">
+                        </div>
+
+                        <p id="result">Hasil Perhitungan</p>
+
+                        <button>Hitung</button>
+                    </form>
+
+                </aside>
+            </section>
+        </main>
+    </div>
     
 
     <script src="js\script.js"></script>
