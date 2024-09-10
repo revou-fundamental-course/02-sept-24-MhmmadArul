@@ -52,6 +52,14 @@ body {
     margin-top: 15px;
 }
 
+.rumus-luas-segitiga{
+    text-align: center;
+}
+
+.rumus-keliling-segitiga {
+    text-align: center;
+}
+
 .luas-segitiga-img img{
     width: 210px;
     height: 210px;
@@ -76,6 +84,32 @@ input[type=number] {
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
+    border-radius: 5px;
+    border: none;
+}
+
+#hitung-luas {
+    margin-top: 50px;
+    margin-left: 280px;
+    padding: 10px 20px;
+    background-color:#dd9cfc;
+    border: none;
+    color: #ffff;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#hitung-keliling {
+    margin-top: 50px;
+    margin-left: 280px;
+    padding: 10px 20px;
+    background-color:#dd9cfc;
+    border: none;
+    color: #ffff;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 .segitiga {
