@@ -89,7 +89,7 @@ input[type=number] {
 }
 
 #hitung-luas {
-    margin-top: 50px;
+    margin-top: 30px;
     margin-left: 280px;
     padding: 10px 20px;
     background-color:#dd9cfc;
@@ -101,7 +101,7 @@ input[type=number] {
 }
 
 #hitung-keliling {
-    margin-top: 50px;
+    margin-top: 30px;
     margin-left: 280px;
     padding: 10px 20px;
     background-color:#dd9cfc;
@@ -114,9 +114,53 @@ input[type=number] {
 
 .segitiga {
     display: flex;
-    gap: 5px;
+    gap: 10px;
+    position: relative;
+    padding-bottom: 100px;
 }
 
 .segitiga>aside{
     flex: 1;
+}
+
+.reset {
+    position: absolute;
+    bottom: 0;
+    background-color: orange;
+    padding: 7px 20px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+@media screen and (max-width : 600px) {
+    .segitiga {
+        flex-direction: column;
+        padding-bottom: 0;
+    }
+
+    .input-wrapper {
+        width: 100%;
+    }
+
+    .reset {
+        display: none;
+    }
+
+    .input-wrapper input {
+        width: 70%;
+    }
+
+    #hitung-luas {
+        margin-left:120px;
+        padding: 15px 25px;
+        font-size: 1em;
+    }
+
+    #hitung-keliling {
+        margin-left:120px;
+        padding: 15px 25px;
+        font-size: 1em;
+    }
 }

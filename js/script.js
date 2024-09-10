@@ -22,3 +22,13 @@ buttonKeliling.addEventListener('click', function () {
 
     document.querySelector('#result-keliling').innerHTML = `K = S1 + S2 + S3 <br> K = ${sisi1} + ${sisi2} + ${sisi3} <br> K = ${keliling}`;
 })
+
+
+
+//Reset Button 
+const reset = document.querySelector('.reset');
+
+reset.addEventListener('reset', function () {
+    document.querySelector('#result-luas').innerHTML = '';
+    document.querySelector('#result-keliling').innerHTML = '';
+})
