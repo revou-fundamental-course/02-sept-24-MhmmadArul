@@ -137,14 +137,14 @@ input[type=number] {
 @media screen and (max-width : 600px) {
     .segitiga {
         flex-direction: column;
-        padding-bottom: 0;
+        padding-bottom: 100px;
     }
 
     .input-wrapper {
         width: 100%;
     }
 
-    .reset {
+    .reset:nth-child(2){
         display: none;
     }
 
